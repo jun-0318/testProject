@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=`, initial-scale=1.0">
+  
+  <!-- seo 최적화 : 내 프로젝트가 검색에 잘 걸러지게 하기 위해서. -->
+  <meta property="og:url" content="">
+	<meta property="og:title" content="PARIS BAGUETTE">
+	<meta property="og:description" content="PARIS BAGUETTE">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="/pb_clone/assets/images/pb_thumbnail.jpg">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="630">
+	<meta name="description" content="파리바게뜨 클론페이지 입니다.">
+	<meta name="keywords" content="반응형, html, seo최적화, 부천 그린컴퓨터아트 학원, 웹퍼블리셔, 웹디자이너, 멀티포지션, 클론페이지">
+	<meta name="author" content="박준호">
+
+  <!-- 파비콘 : 인터넷창 위에 지구 모양 이미지 -->
+  <link rel="shortcut icon" sizes="32x32" href="./assets/images/PB_favicon.png">
+
+  <title>파리바게트 클론 코딩</title>
+
+  <!-- 폰트 -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+
+  <!-- css-library -->
+  <link rel="stylesheet" href="./assets/css/libs/slick.css">
+
+  <!-- css -->
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/fonts.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- library -->
+  <script src="./assets/js/libs/jquery-3.6.0.js"></script>
+  <!-- <script src="./assets/js/libs/slick.js"></script> -->
+  <!-- <script src="./assets/js/libs/slick.min.js"></script> -->
+  <!-- <script src="./assets/js/libs/slick-2.min.js"></script> -->
+  <!-- [NOTE] 이전 파일 다운로드로 받은 slick 버전은 1.6버전(낮은버전)이므로 높은버전 1.8버전으로 업데이트 필요 -->
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <!-- js -->
+  <script src="./assets/js/script.js"></script>
+
+</head>
+<body>
+  <!-- header -->
+  <header class="hd">
+    <div class="inner">
+      <h1 class="logo">
+        <a href="#" target="_blank">
+          <img src="./assets/images/pb_logo.svg" alt="파리바게트">
+        </a>
+      </h1>
+      <!-- //logo -->
+      <nav>
+        <div class="gnb pc-gnb">
+          <div class="gnb-left">
+            <ul>
+              <li class="dep1"><a id="test" href="#tmp1">PB magazine</a></li>
+              <li class="dep1"><a href="#tmp2">PB story</a></li>
+              <li class="dep1"><a href="#tmp3">pb product</a></li>
+            </ul>
+          </div>
+          <!-- //gnb-left -->
+          <div class="gnb-right">
+            <ul>
+              <li class="dep1"><a href="//www.paris.co.kr/store/" target="_blank">store</a></li>
+              <li class="dep1"><a href="//www.paris.co.kr/delivery/howto/" target="_blank">delivery</a></li>
+              <li class="dep1"><a href="#tmp4">promotion</a></li>
+            </ul>
+          </div>
+          <!-- //gnb-right -->
+        </div>
+      </nav>
+      <nav>
+        <div class="gnb mob-gnb">
+          <div class="gnb-box">
+            <ul>
+              <li class="dep1"><a href="#tmp1">PB MAGAZINE</a></li>
+              <li class="dep1"><a href="#tmp2">PB STORY</a></li>
+              <li class="dep1"><a href="#tmp3">PRODUCTS</a></li>
+              <li class="dep1"><a href="//www.paris.co.kr/store/" target="_blank">STORE</a></li>
+              <li class="dep1"><a href="//www.paris.co.kr/delivery/howto/" target="_blank">DELIVERY</a></li>
+              <li class="dep1"><a href="#tmp4">PRONOTION</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- //nav -->
+      <!-- toggle버튼 -->
+      <div class="toggle-menu">
+        <div>
+          <span class="bar bar1"></span>
+          <span class="bar bar2"></span>
+          <span class="bar bar3"></span>
+        </div>
+      </div>
+      <!-- <div class="toggle-menu">
+        <button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div> -->
+    </div>
+  </header>
+  <!-- //header -->
+
+  <section id="kv" class="kv">
+    <div class="kv-list slider">
+      <div class="list-item"><a href="//www.naver.com"><img src="./assets/images/pb_kv0.jpg" alt="배너1"></a></div>
+      <div class="list-item"><a href="#"><img src="./assets/images/pb_kv1.jpg" alt="배너2"></a></div>
+      <div class="list-item"><a href="#"><img src="./assets/images/pb_kv2.jpg" alt="배너3"></a></div>
+      <div class="list-item"><a href="#"><img src="./assets/images/pb_kv3.jpg" alt="배너4"></a></div>
+    </div>
+  </section>
+  <!-- //kv -->
+
+  <section id="tmp1" class="content magazine">
+    <div class="inner">
+      <div class="sec-header">
+        <h3 class="main-tit">pb magazine</h3>
+        <a href="#" target="_blank" title="더보기" class="btn-more">
+          <span>show more</span>
+        </a>
+      </div>
+      <!-- //sec-header -->
+      <div class="sec-body">
+        <ul class="magazine-list">
+          <li class="list-item">
+            <a href="#" target="_blank">
+              <div class="img-area">
+                <img src="./assets/images/thum_magazine1.jpg" alt="섬네일1">
+              </div>
+              <div class="txt-area">
+                <h4 class="txt-tit">논산 딸기</h4>
+                <p class="txt-desc">논산딸기와 함게한 우리 모두가 행복한 상생 프로젝트</p>
+              </div>
+            </a>
+          </li>
+          <li class="list-item">
+            <a href="#" target="_blank">
+              <div class="img-area">
+                <img src="./assets/images/thum_magazine2.jpg" alt="섬네일1">
+              </div>
+              <div class="txt-area">
+                <h4 class="txt-tit">풍기 인삼</h4>
+                <p class="txt-desc">풍기 인삼과 함께한 우리 모두가 행복한 상생 프로젝트</p>
+              </div>
+            </a>
+          </li>
+          <li class="list-item">
+            <a href="#" target="_blank">
+              <div class="img-area">
+                <img src="./assets/images/thum_magazine3.jpg" alt="섬네일1">
+              </div>
+              <div class="txt-area">
+                <h4 class="txt-tit">무안 햇양파</h4>
+                <p class="txt-desc">무안 햇양파와 함께한 우리 모두가 행복한 상생 프로젝트</p>
+              </div>
+            </a>
+          </li>
+          <!-- 추가(flex이해하기) -->
+          <!-- <li class="list-item">
+            <a href="#" target="_blank">
+              <div class="img-area">
+                <img src="./assets/images/thum_magazine1.jpg" alt="섬네일1">
+              </div>
+              <div class="txt-area">
+                <h4 class="txt-tit">논산 딸기44</h4>
+                <p class="txt-desc">논산딸기와 함게한 우리 모두가 행복한 상생 프로젝트</p>
+              </div>
+            </a>
+          </li> -->
+        </ul>
+      </div>
+      <!-- //sec-body -->
+    </div>
+  </section>
+  <!-- //magazine -->
+
+  <section id="tmp2" class="content story">
+    <div class="inner">
+      <div class="sec-header">
+        <!-- 제목 -->
+        <h3 class="main-tit">pb story</h3>
+        <!-- 더보기 -->
+        <a href="#" target="_blank" title="더보기" class="btn-more">
+          <span>show more</span>
+        </a>
+      </div>
+      <!-- //sec-header -->
+      <div class="sec-body">
+        <ul class="story-list">
+          <li class="list-item">
+            <div class="img-area">
+              <a href="//naver.com" target="_blank">
+                <!-- <a href="">테스트</a> -->
+                <img src="./assets/images/thum_pbstory1.jpg" alt="스토리1">
+              </a>
+            </div>
+            <!-- //img-area -->
+            <div class="txt-area">
+              <!-- 라벨, 타이틀, 설명, 날짜 -->
+              <div class="txt-label">
+                <span>bread video</span>
+              </div>
+              <div class="txt-tit line-clamp-3">
+                <strong>월클 김연경 선수를 위한 파바의 특별한 선물! 영광의 비하인드 영상</strong>
+              </div>
+              <div class="txt-desc line-clamp-3">
+                <p>월클 김연경 선수는 멀리서도 빛이 나.. 김연경 선수를 위해서 준비한 특별한 선물과 잼잼이 빠요와의 만남까지!</p>
+              </div>
+              <div class="txt-date">
+                <span>2021-09-27</span>
+              </div>
+            </div>
+            <!-- //txt-area -->
+          </li>
+          <li class="list-item">
+            <div class="img-area">
+              <a href="#" target="_blank">
+                <img src="./assets/images/thum_pbstory2.jpg" alt="스토리2">
+              </a>
+            </div>
+            <!-- //img-area -->
+            <div class="txt-area">
+              <!-- 라벨, 타이틀, 설명, 날짜 -->
+              <div class="txt-label">
+                <span>bread video</span>
+              </div>
+              <div class="txt-tit line-clamp-3">
+                <strong>요리용디X풍기꿀삼빵</strong>
+              </div>
+              <div class="txt-desc line-clamp-3">
+                <p>추석 선물로 딱인 풍기꿀삼빵을 위한 파바와 요리용디의 여섯번째 만남!</p>
+              </div>
+              <div class="txt-date">
+                <span>2021-09-27</span>
+              </div>
+            </div>
+            <!-- //txt-area -->
+          </li>
+          <li class="list-item">
+            <div class="img-area">
+              <a href="#" target="_blank">
+                <img src="./assets/images/thum_pbstory3.jpg" alt="스토리3">
+              </a>
+            </div>
+            <!-- //img-area -->
+            <div class="txt-area">
+              <!-- 라벨, 타이틀, 설명, 날짜 -->
+              <div class="txt-label">
+                <span>bread video</span>
+              </div>
+              <div class="txt-tit line-clamp-3">
+                <strong>월클 김연경 선수를 위한 COMMING SOON!</strong>
+              </div>
+              <div class="txt-desc line-clamp-3">
+                <p>추석 선물로 딱인 풍기꿀삼빵을 위한 파바와 요리용디의 여섯번째 만남!</p>
+              </div>
+              <div class="txt-date">
+                <span>2021-09-27</span>
+              </div>
+            </div>
+            <!-- //txt-area -->
+          </li>
+          <li class="list-item">
+            <div class="img-area">
+              <a href="#" target="_blank">
+                <img src="./assets/images/thum_pbstory4.jpg" alt="스토리4">
+              </a>
+            </div>
+            <!-- //img-area -->
+            <div class="txt-area">
+              <!-- 라벨, 타이틀, 설명, 날짜 -->
+              <div class="txt-label">
+                <span>bread video</span>
+              </div>
+              <div class="txt-tit line-clamp-3">
+                <strong>요리용디X풍기꿀삼빵</strong>
+              </div>
+              <div class="txt-desc line-clamp-3">
+                <p>추석 선물로 딱인 풍기꿀삼빵을 위한 파바와 요리용디의 여섯번째 만남!</p>
+              </div>
+              <div class="txt-date">
+                <span>2021-09-27</span>
+              </div>
+            </div>
+            <!-- //txt-area -->
+          </li>
+        </ul>
+      </div>
+      <!-- //sec-body -->
+    </div>
+  </section>
+  <!-- //story -->
+
+  <section id="tmp3" class="content promotion">
+    <div class="inner">
+      <div class="sec-header">
+        <!-- 제목 -->
+        <h3 class="main-tit">pb promotion</h3>
+        <!-- 더보기 -->
+        <a href="#" target="_blank" title="더보기" class="btn-more">
+          <span>show more</span>
+        </a>
+      </div>
+      <!-- //sec-header -->
+      <div class="sec-body">
+        <div class="promotion-list slider">
+          <!-- [D] badge 상태변경
+            state-live : 진행중(생략가능)
+            state-done : 종료
+            state-announce : 당첨자발표
+          -->
+          <div class="list-item">
+            <div class="img-area">
+              <!-- 클릭, 이미지, 마크 -->
+              <a href="//www.naver.com" target="_blank">
+                <img src="./assets/images/thum_promo1.jpg" alt="프로모션배너1">
+                <span class="badge"></span>
+              </a>
+            </div>
+            <!-- //img-area -->
+            <div class="txt-area">
+              <div class="txt-tit">
+                <a href="#">
+                  <strong>김연경이 파바에 왔다!</strong>
+                </a>
+              </div>
+              <div class="btn-more">
+                <a href="#">READ MORE</a>
+              </div>
+            </div>
+            <!-- //txt-area -->
+          </div>
+          <!-- 1 -->
+          <div class="list-item state-announce">
+            <div class="img-area">
+              <!-- 클릭, 이미지, 마크 -->
+              <a href="//www.naver.com" target="_blank">
+                <img src="./assets/images/thum_promo2.jpg" alt="프로모션배너2">
+                <span class="badge"></span>
+              </a>
+            </div>
+            <!-- //img-area -->
+            <div class="txt-area">
+              <div class="txt-tit">
+                <a href="#">
+                  <strong>풍요로운 한가위 이벤트</strong>
+                </a>
+              </div>
+              <div class="btn-more">
+                <a href="#">READ MORE</a>
+              </div>
+            </div>
+            <!-- //txt-area -->
+          </div>
+          <!-- 2 -->
+          <div class="list-item state-done">
+            <div class="img-area">
+              <!-- 클릭, 이미지, 마크 -->
+              <a href="//www.naver.com" target="_blank">
+                <img src="./assets/images/thum_promo3.jpg" alt="프로모션배너3">
+                <span class="badge"></span>
+              </a>
+            </div>
+            <!-- //img-area -->
+            <div class="txt-area">
+              <div class="txt-tit">
+                <a href="#">
+                  <strong>가을에 더 맛있는 밤&고구마</strong>
+                </a>
+              </div>
+              <div class="btn-more">
+                <a href="#">READ MORE</a>
+              </div>
+            </div>
+            <!-- //txt-area -->
+          </div>
+          <!-- 3 -->
+          <div class="list-item state-announce">
+            <div class="img-area">
+              <!-- 클릭, 이미지, 마크 -->
+              <a href="//www.naver.com" target="_blank">
+                <img src="./assets/images/thum_promo4.jpg" alt="프로모션배너4">
+                <span class="badge"></span>
+              </a>
+            </div>
+            <!-- //img-area -->
+            <div class="txt-area">
+              <div class="txt-tit">
+                <a href="#">
+                  <strong>창립 35주년 기념 실키롤담요<br>사전예약중!</strong>
+                </a>
+              </div>
+              <div class="btn-more">
+                <a href="#">READ MORE</a>
+              </div>
+            </div>
+            <!-- //txt-area -->
+          </div>
+          <!-- 4 -->
+          <div class="list-item state-announce">
+            <div class="img-area">
+              <!-- 클릭, 이미지, 마크 -->
+              <a href="//www.naver.com" target="_blank">
+                <img src="./assets/images/thum_promo5.png" alt="프로모션배너5">
+                <span class="badge"></span>
+              </a>
+            </div>
+            <!-- //img-area -->
+            <div class="txt-area">
+              <div class="txt-tit">
+                <a href="#">
+                  <strong>김연경 세트 사전예약하고 포토카드 받자!</strong>
+                </a>
+              </div>
+              <div class="btn-more">
+                <a href="#">READ MORE</a>
+              </div>
+            </div>
+            <!-- //txt-area -->
+          </div>
+          <!-- 5 -->
+        </div>
+      </div>
+      <!-- //sec-body -->
+    </div>
+  </section>
+  <!-- //promotion -->
+
+  <section id="tmp4" class="content product">
+    <div class="inner">
+      <div class="sec-header">
+        <!-- 제목 -->
+        <h3 class="main-tit">pb product</h3>
+        <!-- 더보기 -->
+        <a href="#" target="_blank" title="더보기" class="btn-more">
+          <span>show more</span>
+        </a>
+      </div>
+      <!-- //sec-header -->
+      <div class="sec-body">
+        <div class="product-list slider">
+          <div class="list-item">
+            <div class="img-area">
+              <a href="#" target="_blank">
+                <img src="./assets/images/thum_product1.jpg" alt="제품1">
+              </a>
+            </div>
+            <!-- //img-area -->
+            <div class="txt-area">
+              <a href="#" target="_blank">
+                <p class="txt-tit">그대로 토스트 플러스</p>
+              </a>
+            </div>
+            <!-- //txt-area -->
+          </div> 
+          <!-- //list-item -->
+          <div class="list-item">
+            <div class="img-area">
+              <a href="#" target="_blank">
+                <img src="./assets/images/thum_product2.jpg" alt="제품2">
+              </a>
+            </div>
+            <!-- //img-area -->
+            <div class="txt-area">
+              <a href="#" target="_blank">
+                <p class="txt-tit">쪽득한밤호떡</p>
+              </a>
+            </div>
+            <!-- //txt-area -->
+          </div> 
+          <!-- //list-item -->
+          <div class="list-item">
+            <div class="img-area">
+              <a href="#" target="_blank">
+                <img src="./assets/images/thum_product3.jpg" alt="제품3">
+              </a>
+            </div>
+            <!-- //img-area -->
+            <div class="txt-area">
+              <a href="#" target="_blank">
+                <p class="txt-tit">너진짜 밤맛이구나</p>
+              </a>
+            </div>
+            <!-- //txt-area -->
+          </div> 
+          <!-- //list-item -->
+          <div class="list-item">
+            <div class="img-area">
+              <a href="#" target="_blank">
+                <img src="./assets/images/thum_product4.jpg" alt="제품4">
+              </a>
+            </div>
+            <!-- //img-area -->
+            <div class="txt-area">
+              <a href="#" target="_blank">
+                <p class="txt-tit">라떼는 밤이야</p>
+              </a>
+            </div>
+            <!-- //txt-area -->
+          </div> 
+          <!-- //list-item -->
+          <div class="list-item">
+            <div class="img-area">
+              <a href="#" target="_blank">
+                <img src="./assets/images/thum_product5.jpg" alt="제품5">
+              </a>
+            </div>
+            <!-- //img-area -->
+            <div class="txt-area">
+              <a href="#" target="_blank">
+                <p class="txt-tit">만월빵</p>
+              </a>
+            </div>
+            <!-- //txt-area -->
+          </div> 
+          <!-- //list-item -->
+          <div class="list-item">
+            <div class="img-area">
+              <a href="#" target="_blank">
+                <img src="./assets/images/thum_product6.jpg" alt="제품6">
+              </a>
+            </div>
+            <!-- //img-area -->
+            <div class="txt-area">
+              <a href="#" target="_blank">
+                <p class="txt-tit">블랙포레스트 케이크</p>
+              </a>
+            </div>
+            <!-- //txt-area -->
+          </div> 
+          <!-- //list-item -->
+        </div>
+      </div>
+      <!-- //sec-body -->
+    </div>
+  </section>
+  <!-- //product -->
+
+  <section class="content notice">
+    <div class="sec-body">
+      <ul class="notice-list">
+        <li class="list-item">
+          <a href="//www.paris.co.kr" target="_blank">
+            <span class="label">고객센터</span>
+            <p class="txt-tit">고객의 소리를 적극 경청하고 고객만족 향상 활동을 지속적으로 실천합니다.</p>
+            <i class="ico-arr"></i>
+          </a>
+        </li>
+        <li class="list-item">
+          <a href="//www.paris.co.kr" target="_blank">
+            <span class="label">제휴카드안내</span>
+            <p class="txt-tit">해피포인트와 제휴카드 정보를 확인하세요.</p>
+            <i class="ico-arr"></i>
+          </a>
+        </li>
+        <li class="list-item">
+          <a href="//www.paris.co.kr" target="_blank">
+            <span class="label">공지사항</span>
+            <p class="txt-tit">파리바게뜨 공지내용을 확인하세요.</p>
+            <i class="ico-arr"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- //sec-body -->
+  </section>
+  <!-- //notice -->
+
+  <footer class="ft">
+    <div class="inner">
+      <div class="box-wrap">
+        <div class="box">
+          <h6 class="txt-tit">info</h6>
+          <div class="box-body">
+            <ul class="info-list">
+              <li><a href="#">브랜드소개</a></li>
+              <li><a href="#">창업안내</a></li>
+              <li><a href="#">거래희망사전등록</a></li>
+              <li><a href="#">윤리신고센터</a></li>
+              <li><a href="#">채용</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- //info -->
+        <div class="box">
+          <h6 class="txt-tit">contact us</h6>
+          <div class="box-body">
+            <ul class="contact-list">
+              <li><a href="#">고객센터</a></li>
+              <li><a href="#">080-731-2027</a></li>
+              <li><a href="#">평일 09:00~17:00 (점심 12:00~13:00)</a></li>
+              <li>contact 내용4</li>
+              <li><a href="#">고객 칭찬</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- //contact -->
+        <div class="box">
+          <h6 class="txt-tit sr-only">brands</h6>
+          <div class="box-body">
+            <ul class="brand-list">
+              <li><a href="#"><img src="./assets/images/ft_brand_logo1.png" alt="브랜드1"></a></li>
+              <li><a href="#"><img src="./assets/images/ft_brand_logo2.png" alt="브랜드2"></a></li>
+              <li><a href="#"><img src="./assets/images/ft_brand_logo3.png" alt="브랜드3"></a></li>
+              <li><a href="#"><img src="./assets/images/ft_brand_logo4.png" alt="브랜드4"></a></li>
+              <li><a href="#"><img src="./assets/images/ft_brand_logo5.png" alt="브랜드5"></a></li>
+              <li><a href="#"><img src="./assets/images/ft_brand_logo6.png" alt="브랜드6"></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- //brands -->
+        <div class="box">
+          <h6 class="txt-tit">follow us</h6>
+          <div class="box-body">
+            <ul class="sns-list">
+              <li class="ico-fa"><a href="#"><img src="./assets/images/sns_ico_01.svg" alt="페이스북"></a></li>
+              <li class="ico-in"><a href="#"><img src="./assets/images/sns_ico_02.svg" alt="인스타"></a></li>
+              <li class="ico-yt"><a href="#"><img src="./assets/images/sns_ico_03.svg" alt="유튜브"></a></li>
+            </ul>
+            <!-- //sns-list -->
+            <div class="family-site">
+              <button class="select-label">Family site</button>
+              <ul class="select-list">
+                <li><a href="//paris.co.kr" target="_blank">파리크라상</a></li>
+                <li><a href="//paris.co.kr" target="_blank">파스쿠찌</a></li>
+                <li><a href="//paris.co.kr" target="_blank">베스킨라빈스</a></li>
+                <li><a href="//paris.co.kr" target="_blank">해피포인트</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- //follow -->
+      </div>
+      <!-- //box-wrap -->
+      <ul class="ft-menu">
+        <li><a href="#" target="_blank">이용약관</a></li>
+        <li><a href="#" target="_blank">개인정보처리방침</a></li>
+        <li><a href="#" target="_blank">이메일무단수집거부</a></li>
+        <li><a href="#" target="_blank">영상정보처리기기운영관리방침</a></li>
+      </ul>
+      <!-- //ft-meun -->
+      <!-- <div class="copyright"> All Rights Reserved © PARIS BAGUETTE, PARIS CROISSANT CO., LTD. 경기도 성남시 중원구 상대원동 사기막골로 31번길 18 (주) 파리크라상</div> -->
+    </div>
+    <!-- //inner -->
+    <div class="copyright">
+      All Rights Reserved © PARIS BAGUETTE, PARIS CROISSANT CO., LTD. 경기도 성남시 중원구 상대원동 사기막골로 31번길 18 (주) 파리크라상
+    </div>
+  </footer>  
+</body>
+</html>
